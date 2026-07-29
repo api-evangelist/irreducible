@@ -1,0 +1,63 @@
+generated: '2026-07-19'
+method: searched
+source: https://crates.io/search?q=binius
+notes: >-
+  Irreducible publishes the Binius zero-knowledge proof system as a family of
+  first-party Rust crates on crates.io under the "binius" namespace (repo
+  IrreducibleOSS/binius). "binius" is the flagship meta crate; the component
+  crates below are published/reserved by the same project. These are proving-system
+  libraries, not API client SDKs (Irreducible exposes no public REST API), so no
+  SDKs pointer is emitted.
+packages:
+- language: rust
+  registry: crates.io
+  name: binius
+  url: https://crates.io/crates/binius
+  install: cargo add binius
+  version: 0.1.1
+  official: true
+  description: >-
+    State-of-the-art cryptographic proof system for fast, cheap verification of
+    complex computations (meta crate for the binius namespace).
+- language: rust
+  registry: crates.io
+  name: binius-core
+  url: https://crates.io/crates/binius-core
+  install: cargo add binius-core
+  official: true
+- language: rust
+  registry: crates.io
+  name: binius-field
+  url: https://crates.io/crates/binius-field
+  install: cargo add binius-field
+  official: true
+- language: rust
+  registry: crates.io
+  name: binius-math
+  url: https://crates.io/crates/binius-math
+  install: cargo add binius-math
+  official: true
+- language: rust
+  registry: crates.io
+  name: binius-hash
+  url: https://crates.io/crates/binius-hash
+  install: cargo add binius-hash
+  official: true
+- language: rust
+  registry: crates.io
+  name: binius-circuits
+  url: https://crates.io/crates/binius-circuits
+  install: cargo add binius-circuits
+  official: true
+- language: rust
+  registry: crates.io
+  name: binius-compute
+  url: https://crates.io/crates/binius-compute
+  install: cargo add binius-compute
+  official: true
+- language: rust
+  registry: crates.io
+  name: binius-m3
+  url: https://crates.io/crates/binius-m3
+  install: cargo add binius-m3
+  official: true

@@ -1,8 +1,32 @@
 aid: irreducible
 name: Irreducible
-description: 'Irreducible is a company surfaced as a portfolio company of paradigm and added to the API
-  Evangelist network as a stub for enrichment. Sector: crypto-infrastructure. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Irreducible is a cryptography company accelerating the zero-knowledge (ZK)
+  revolution by turning advanced proof systems into cost-efficient, production
+  infrastructure. The company invented and leads Binius, a state-of-the-art
+  zero-knowledge SNARK built on towers of binary fields that natively handles
+  bitwise operations to deliver order-of-magnitude speedups over prime-field
+  systems on ordinary CPUs, GPUs, mobile devices, and custom FPGA hardware.
+  Irreducible operates its own FPGA-based proof-generation service and publishes
+  Binius as open-source Rust crates. Target applications include self-sovereign
+  identity, on-chain privacy, content provenance for AI-generated media, and
+  verifiable supercomputing. Irreducible was backed by a Series A co-led by
+  Paradigm and Bain Capital Crypto. This profile was seeded as a Paradigm
+  portfolio lead and enriched by the API Evangelist pipeline; the company
+  exposes an open-source developer surface (crates + docs) rather than a public
+  REST API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/LoAVgUcWjtrfzXZxXx4AZQSWMys.png
 url: https://raw.githubusercontent.com/api-evangelist/irreducible/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +36,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Crypto Infrastructure
+- Zero Knowledge Proofs
+- Cryptography
+- SNARK
+- Blockchain
+- Privacy
+- Open Source
+- Rust
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +56,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.irreducible.com
+- type: Documentation
+  url: https://www.binius.xyz
+- type: Blog
+  url: https://www.irreducible.com/posts
+- type: GitHubOrganization
+  url: https://github.com/IrreducibleOSS
+- type: Packages
+  url: packages/irreducible-packages.yml
+- type: WellKnown
+  url: well-known/irreducible-well-known.yml
+- type: DomainSecurity
+  url: security/irreducible-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

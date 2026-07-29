@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+host: https://www.irreducible.com
+notes: >-
+  Probed the standard /.well-known/ discovery surface on the primary corporate
+  host. None are published (all 404) — a marketing/docs site for an
+  open-source cryptography project, with no public API host. Absence recorded
+  as valid data; no raw files saved.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
