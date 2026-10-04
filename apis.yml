@@ -56,7 +56,7 @@ tags:
 - SNARK
 - Blockchain
 - Privacy
-- Open-Source
+- Open Source
 - Rust
 tags_raw:
 - Company
@@ -68,6 +68,7 @@ tags_raw:
 - Privacy
 - Open Source
 - Rust
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
